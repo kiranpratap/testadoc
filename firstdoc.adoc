@@ -12,3 +12,19 @@ _italic phrase_ & __char__acter__s__
 
 `*_monospace bold italic phrase_*` &
 ``**__char__**``acter``**__s__**``s
+
+Some Image:
+
+image::circle.svg[]
+
+A UML diagram:
+
+[plantuml, diagram-classes, png]
+
+@startuml
+:Hello world;
+:This is on defined on
+several **lines**;
+@enduml
+
+
