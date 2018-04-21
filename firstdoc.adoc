@@ -19,12 +19,16 @@ image::circle.svg[]
 
 A UML diagram:
 
-[plantuml, diagram-classes, png]
+[plantuml, diagram-classes, png] (1) (2) (3)
+....
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
 
-@startuml
-:Hello world;
-:This is on defined on
-several **lines**;
-@enduml
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+....
 
 
